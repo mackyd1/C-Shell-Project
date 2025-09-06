@@ -6,6 +6,7 @@ int main() {
   // Flush after every printf
   setbuf(stdout, NULL);
 
+  while(1){
   // Uncomment this block to pass the first stage
    printf("$ ");
 
@@ -17,6 +18,6 @@ int main() {
 
   printf("%s: command not found\n", input);
 
-
+  }
   return 0;
 }
