@@ -16,7 +16,7 @@ int main() {
   input[strlen(input) - 1] = '\0';
 
       // Check for exit
-  if (strcmp(input, "exit") == 0) {
+  if (strcmp(input, "exit 0") == 0) {
      break;
   }
   
