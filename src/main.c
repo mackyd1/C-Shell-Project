@@ -15,6 +15,11 @@ int main() {
   fgets(input, 100, stdin);
   input[strlen(input) - 1] = '\0';
 
+      // Check for exit
+  if (strcmp(input, "exit") == 0) {
+     break;
+  }
+  
 //vro?
   printf("%s: command not found\n", input);
 
