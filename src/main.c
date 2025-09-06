@@ -19,6 +19,10 @@ int main() {
   if (strcmp(input, "exit 0") == 0) {
      break;
   }
+
+  if (strcmp(input, "echo ", 5) == 0) {
+     printf("%s\n", input + 5);
+  }
   
 //vro?
   printf("%s: command not found\n", input);
