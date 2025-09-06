@@ -20,8 +20,9 @@ int main() {
      break;
   }
 
-  if (strcmp(input, "echo ", 5) == 0) {
+  if (strncmp(input, "echo ", 5) == 0) {
      printf("%s\n", input + 5);
+     continue;
   }
   
 //vro?
